@@ -40,8 +40,14 @@ print(alphabet)
 alpha_list = list(alphabet)
 print(alpha_list)
 
-# Turn a list into a string
+# Turn a list into a string w/ no space
 alpha_string = ''.join(alpha_list)
+print(alpha_string)
+
+# Turn a list into a string separated 
+# by any selected character(s)
+
+alpha_string = '-'.join(alpha_list)
 print(alpha_string)
 
 
