@@ -13,6 +13,13 @@ print(list1[::-1])
 # Tuple - Immutable sequence
 gps_coordinates = (33.848673, -84.373313)
 
+# Unpacking a Tuple.  You can assign multiple variables 
+# at a time.  The same can be done for lists 
+
+latitude, longitude = gps_coordinates
+
+print(latitude, longitude)
+
 
 # Range = list of numeric values
 Numbers_from_zero_to_million = range(1000000)
